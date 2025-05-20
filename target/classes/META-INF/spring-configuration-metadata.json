@@ -9,19 +9,25 @@
       "name": "file-storage.local",
       "type": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Local",
       "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties",
-      "sourceMethod": "getLocal()"
+      "sourceMethod": "public com.mengnankk.tcpfiletransfer.config.FileStorageProperties.Local getLocal() "
     },
     {
       "name": "file-storage.minio",
       "type": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Minio",
       "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties",
-      "sourceMethod": "getMinio()"
+      "sourceMethod": "public com.mengnankk.tcpfiletransfer.config.FileStorageProperties.Minio getMinio() "
     },
     {
       "name": "file-storage.oss",
       "type": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Oss",
       "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties",
-      "sourceMethod": "getOss()"
+      "sourceMethod": "public com.mengnankk.tcpfiletransfer.config.FileStorageProperties.Oss getOss() "
+    },
+    {
+      "name": "file-storage.tencent",
+      "type": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Tencent",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties",
+      "sourceMethod": "public com.mengnankk.tcpfiletransfer.config.FileStorageProperties.Tencent getTencent() "
     },
     {
       "name": "tcp",
@@ -74,6 +80,26 @@
       "name": "file-storage.oss.endpoint",
       "type": "java.lang.String",
       "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Oss"
+    },
+    {
+      "name": "file-storage.tencent.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Tencent"
+    },
+    {
+      "name": "file-storage.tencent.region",
+      "type": "java.lang.String",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Tencent"
+    },
+    {
+      "name": "file-storage.tencent.secret-id",
+      "type": "java.lang.String",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Tencent"
+    },
+    {
+      "name": "file-storage.tencent.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Tencent"
     },
     {
       "name": "file-storage.type",

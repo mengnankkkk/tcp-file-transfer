@@ -34,4 +34,18 @@ public class FileStorageProperties {
         private String secretKey;
         private String bucketName;
     }
+
+    @Data
+    public static class Tencent {
+        private String bucketName;
+        private String region;
+        private String secretId;
+        private String secretKey;
+    }
+
+    public Tencent getTencent() {
+        return tencent;
+    }
+
+    private Tencent tencent;
 }
