@@ -1,0 +1,90 @@
+{
+  "groups": [
+    {
+      "name": "file-storage",
+      "type": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties"
+    },
+    {
+      "name": "file-storage.local",
+      "type": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Local",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties",
+      "sourceMethod": "getLocal()"
+    },
+    {
+      "name": "file-storage.minio",
+      "type": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Minio",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties",
+      "sourceMethod": "getMinio()"
+    },
+    {
+      "name": "file-storage.oss",
+      "type": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Oss",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties",
+      "sourceMethod": "getOss()"
+    },
+    {
+      "name": "tcp",
+      "type": "com.mengnankk.tcpfiletransfer.config.TcpServerProperties",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.TcpServerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file-storage.local.upload-path",
+      "type": "java.lang.String",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Local"
+    },
+    {
+      "name": "file-storage.minio.access-key",
+      "type": "java.lang.String",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Minio"
+    },
+    {
+      "name": "file-storage.minio.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Minio"
+    },
+    {
+      "name": "file-storage.minio.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Minio"
+    },
+    {
+      "name": "file-storage.minio.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Minio"
+    },
+    {
+      "name": "file-storage.oss.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Oss"
+    },
+    {
+      "name": "file-storage.oss.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Oss"
+    },
+    {
+      "name": "file-storage.oss.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Oss"
+    },
+    {
+      "name": "file-storage.oss.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties$Oss"
+    },
+    {
+      "name": "file-storage.type",
+      "type": "java.lang.String",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.FileStorageProperties"
+    },
+    {
+      "name": "tcp.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mengnankk.tcpfiletransfer.config.TcpServerProperties"
+    }
+  ],
+  "hints": []
+}
